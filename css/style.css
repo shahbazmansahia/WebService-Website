@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .navbar .nav-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -28,6 +32,7 @@
 .carousel-image-3 {                 /* FIX ME: IMAGE 3 NOT SHOWING UP ANYMORE */
     background: url('../img/image3.jpg');
     background-size: cover;
+    background-position: 0 -250px;
 }
 
 #home-heading {
