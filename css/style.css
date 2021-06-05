@@ -106,3 +106,38 @@ body {
 #faq .card-header {
     background: #333;
 }
+
+#main-footer {
+    background: #000;
+    color: #fff;
+}
+
+#about-footer {
+    background: #000;
+    color: #fff;
+}
+
+#services-footer {
+    background: #000;
+    color: #fff;
+}
+
+#blog-header {
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#blog-section {
+    /*column-count: 3; */
+}
+
+#blog-footer {
+    background: #000;
+    color: #fff;
+}
+
