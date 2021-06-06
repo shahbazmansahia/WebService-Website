@@ -69,6 +69,11 @@ body {
     color: #fff;
 }
 
+#gallery a {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 #about-header {
     height: 200px;
     background: url('../img/image1.jpg');
@@ -141,3 +146,17 @@ body {
     color: #fff;
 }
 
+#contact-header {
+    height: 200px;
+    background: url('../img/image2.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#web-footer {
+    background: #000;
+    color: #fff;
+}
