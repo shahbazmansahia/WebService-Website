@@ -76,7 +76,7 @@ body {
 
 #about-header {
     height: 200px;
-    background: url('../img/image1.jpg');
+    background: url('../img/headerabout.jpg');
     background-position: 0 -360px;
     background-attachment: fixed;
     color: #fff;
@@ -90,7 +90,7 @@ body {
 
 #service-header {
     height: 200px;
-    background: url('../img/image3.jpg');
+    background: url('../img/headerservice.jpg');
     background-position: 0 -360px;
     background-attachment: fixed;
     color: #fff;
@@ -129,12 +129,13 @@ body {
 
 #blog-header {
     height: 200px;
-    background: url('../img/image1.jpg');
+    background: url('../img/headerblog.jpg');
     background-position: 0 -360px;
     background-attachment: fixed;
     color: #fff;
     border-bottom: 1px #eee solid;
     padding-top: 50px;
+    
 }
 
 #blog-section {
@@ -148,7 +149,7 @@ body {
 
 #contact-header {
     height: 200px;
-    background: url('../img/image2.jpg');
+    background: url('../img/headercontact.jpg');
     background-position: 0 -360px;
     background-attachment: fixed;
     color: #fff;
