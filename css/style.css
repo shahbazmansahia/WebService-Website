@@ -15,6 +15,10 @@ body {
     border-left: #ddd 3px solid; 
 }
 
+.altnav {
+    background-color: #212529;
+}
+
 .carousel-item {
     height: 450px;
 }
@@ -60,7 +64,7 @@ body {
     background: url('../img/media.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 0 150px;
+    background-position: 0 0px;
     text-align: center;
     color: #fff;
 }
@@ -117,9 +121,6 @@ body {
     color: #fff;
 }
 
-#blognav {
-    background-color: #212529;
-}
 
 #blog-header {
     height: 200px;

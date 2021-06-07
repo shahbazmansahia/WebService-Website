@@ -168,12 +168,12 @@
         </div>
     </section>
 
-    <!--VIDEO MODAL -->         <!-- FIX ME: VIDEO DOESN'T AUTOPLAY AND KEEPS ON PLAYING WHEN THE MODAL IS CLOSED-->
+    <!--VIDEO MODAL -->
     <div id= "VideoModal" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
-                    <button class="btn close" data-dismiss= "modal">
+                    <button class="btn close modal-header ms-auto" data-dismiss= "modal">
                         <span>&times;</span>
                     </button>
                     <iframe src="https://www.youtube.com/embed/CCDG8fpeBXU" frameborder="0" height= "350" width= "100%" allowfullscreen></iframe>
@@ -307,6 +307,10 @@
                     $(myModal + 'iframe').attr('src', videoSrc);
                 });
             });
+        });
+
+        $("#VideoModal").on('hidden.bs.modal', function (e) {
+            $("#VideoModal iframe").attr("src", $("#VideoModal iframe").attr("src"));
         });
         
     </script>
